@@ -1,0 +1,48 @@
+.comment-card-wrapper {
+  width: 550px;
+  height: 80px;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(254, 217, 168);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-card-wrapper-left {
+    display: flex;
+    align-items: center;
+}
+
+.comment-card-wrapper-left p {
+  color: rgb(52, 52, 53);
+  font-size: 16px;
+}
+
+.comment-card-wrapper-left button {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(251, 162, 79);
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: 400px;
+  margin-right: 20px
+}
+
+.comment-card-wrapper-right button {
+  border-color: transparent;
+  background-color: rgb(254, 217, 168);
+  font-size:small;
+  font-style: italic;
+  font-weight:bolder;
+  color: rgb(97, 87, 87);
+}
+
+
+.comment-card-wrapper-right button:hover {
+  color: rgb(244, 137, 38);
+  cursor: pointer;
+  font-weight: bolder;
+}
