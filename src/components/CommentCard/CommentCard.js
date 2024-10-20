@@ -9,7 +9,7 @@ const CommentCard = (props) => {
         <p>{props.text}</p>
       </div>
       <div className="comment-card-wrapper-right">
-        <button>Delete</button>
+        <button >Delete</button>
         <button>Edit</button>
       </div>
     </div>
